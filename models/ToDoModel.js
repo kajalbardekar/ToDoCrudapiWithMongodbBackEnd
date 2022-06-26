@@ -9,3 +9,5 @@ const todoSchema= new mongoose.Schema({
   
     }
 })
+
+module.exports=mongoose.model("ToDo",todoSchema);
